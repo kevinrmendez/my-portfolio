@@ -424,7 +424,19 @@ ID STYLE
 	}
 	@keyframes bargraph_jquery{
 		0%{width: 0%;}
-		100%{width:40;}
+		100%{width:40%;}
+	}
+	@keyframes bargraph_php{
+		0%{width: 0%;}
+		100%{width:50%;}
+	}
+	@keyframes bargraph_wp{
+		0%{width: 0%;}
+		100%{width:40%;}
+	}
+	@keyframes bargraph_mysql{
+		0%{width: 0%;}
+		100%{width:60%;}
 	}
 
 	.bargraph{
@@ -467,6 +479,27 @@ ID STYLE
 		margin-left:0px;
 		animation-duration:4s;
 		animation-name: bargraph_jquery;
+	}
+	.php{
+		background-color: #00802b;
+		width: 50%;
+		margin-left:0px;
+		animation-duration:4s;
+		animation-name: bargraph_php;
+	}
+	.wp{
+		background-color: #cc0000;
+		width: 40%;
+		margin-left:0px;
+		animation-duration:4s;
+		animation-name: bargraph_wp;
+	}
+	.mysql{
+		background-color: #002966;
+		width: 60%;
+		margin-left:0px;
+		animation-duration:4s;
+		animation-name: bargraph_mysql;
 	}
 
 	/**** ID style **/
