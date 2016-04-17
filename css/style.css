@@ -136,14 +136,7 @@ IMG
 	width:100%;
 	
 }
-.logo{
-	width:50%;
-	position:relative;
-	left:20%;
-	/*float:right;*/
-	
 
-}
 
 /********
 HEADER STYLES
@@ -239,9 +232,9 @@ CLASS STYLES
 
 }
 .logo{
-	width:50%;
+	width:70%;
 	position:relative;
-	left:20%;
+	left:10%;
 	/*float:right;*/	
 
 }
@@ -312,6 +305,9 @@ ID STYLE
 	}
 	.column:nth-last-child(2){
 		border-bottom: none;
+	}
+	.logo{
+		max-width:20%;
 	}
 	div.bargraph{
 		display:none;
@@ -392,9 +388,6 @@ ID STYLE
 		background-color: #0059b3;
 		border-radius:1000px;
 
-	}
-	.logo{
-		max-width:20%;
 	}
 	.column{
 		float:left;
