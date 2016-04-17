@@ -1,0 +1,489 @@
+/******
+BORDER TEST
+****/
+/**{
+	border:solid;
+}*/
+
+
+/********
+FONT
+******/
+@font-face{
+	font-family:Swiss_light;
+	src: url(../fonts/Swis721_Lt_BT_Light.ttf);
+}
+@font-face{
+
+}
+
+@font-face{
+	font-family:Swiss_BT_Heavy;
+	src: url(../fonts/swis721_BT_Heavy.ttf);
+}
+
+
+/*****************
+COLORS
+************/
+body{
+	background-color:#e6e6e6;
+	color:#595959;
+}
+/*#wrapper h3, #wrapper h2, #wrapper h4{
+	color:#ff6600;
+}*/
+
+header{
+background-color:#00264d;
+color: #fff;
+}
+
+footer{
+background-color: #595959;
+color: #fff;
+}
+
+nav ul li a{
+	color:#fff;
+}
+button{
+	background-color:#737373;
+	color:#fff;
+}
+
+nav ul li a:hover{
+	color:#4d4d4d;
+}
+p, li, textarea{
+	color:#a6a6a6;
+}
+.quote{
+	color:#8c8c8c;
+}
+.column{
+	background-color:#fff;
+
+}
+.row{
+	background-color: #fff;
+}
+form{
+	background-color:#fff;
+}
+input,textarea{
+	background-color:#f2f2f2;
+}
+.toggle-nav{
+	color:#fff;
+}
+.toggle-nav:hover{
+		background-color: #0059b3;
+
+	}
+a:visited, a:hover, a:active{
+	color: #fff;
+}
+/******
+ELEMENT STYLE
+*****/
+body{
+	font-family: Swiss_light;
+}
+a{
+	text-decoration:none;
+}
+
+
+
+/*******************
+FORM
+***************/
+label{
+	font-size:1.25em;
+	display:block;
+	padding-bottom:10px;
+	padding-top:10px;
+	width:20%;
+}
+input{
+	border: outset;
+	max-width:100%;
+	width:50%;
+	font-size:1.5em;
+	margin:5% 0;
+	display:block;
+}
+textarea{
+	border: outset;
+	display:block;
+	width:100%;
+	margin-bottom:15px;
+}
+button{
+	font-size:1.25em;
+}
+
+
+
+
+/***********
+IMG
+*********/
+.profile-picture{
+	border-radius: 90%;
+	max-width:100%;
+	width:100%;
+	
+}
+.logo{
+	width:50%;
+	position:relative;
+	left:20%;
+	/*float:right;*/
+	
+
+}
+
+/********
+HEADER STYLES
+********/
+header{
+text-align:center;
+top:0px;
+margin:0px;
+padding:0px;
+
+}
+
+
+nav li{
+	display:inline-block;
+	list-style:none;
+
+}
+nav ul li a{
+	text-decoration: none;
+}
+
+
+/*************
+BODY
+***********/
+
+li{
+	list-style-type:none;
+}
+/************
+FOOTER
+*********/
+footer{
+text-align:center;
+
+}
+.social li{
+	list-style:none;
+	display:inline-block;
+	margin:0 auto;
+	padding:0px;
+}
+.social li img{
+	max-width:100%;
+	min-width:10px;
+	float: left;
+	padding:10px;
+	position:relative;
+	margin:auto 0;
+
+}
+footer p{
+	font-size: .8em;
+	padding-top:2em;
+
+}
+
+/***********
+CLASS STYLES
+************/
+.fix{
+	height:70px;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	position:fixed;
+	top:0;
+	background-color:#00264d;;
+	z-index:9999;
+}
+.fix li{
+	padding:0;
+	margin-left:5%;
+} 
+.column{
+	padding-left:5px;
+	margin-left:5%;
+	/*box-shadow:  15px 10px 10px 5px #888888;*/
+
+}
+.row{
+	border-style:dashed hidden;
+}
+
+.profile-picture{
+	border-radius: 100%;
+	max-width:40%;
+	display:block;
+	position:relative;
+	left:30%;
+
+
+}
+.logo{
+	width:50%;
+	position:relative;
+	left:20%;
+	/*float:right;*/	
+
+}
+.quote{
+	font-style:italic;
+	padding:1em 0;
+	font-size:4em;
+}
+
+/************
+ID STYLE
+********/
+#back{
+	position:fixed;
+	background-color:red;
+}
+#wrapper{
+	width:80%;
+	margin: auto;
+}
+
+
+
+@media screen and  (max-width: 467px){
+	body{
+		background-color:white;
+	}
+	header h2{
+		margin:0;
+		padding-top:10%;
+		padding-bottom:5%;
+		font-size:3em;
+		
+	}
+	header h3{
+		margin:0;
+		padding-top:0;
+		padding-bottom:2%;
+		font-size:1em;
+	}
+	nav{
+		display:none;
+	}
+	nav ul{
+		padding: 0px;
+	}
+	nav ul li{
+		display:block;
+		padding: 10px 20px;
+		margin:auto;
+		font-size:1.25em;
+	}
+	input{
+		font-size: 1em;
+	}
+	/*********CLASS STYLES
+	*********/
+	.toggle-nav{
+		font-size:40px;
+		display:block;
+		padding-bottom: 5%;
+	}
+	.hide-text{
+		display:none;
+	}
+	.column{
+		width:100%;
+	}
+	.column:nth-last-child(2){
+		border-bottom: none;
+	}
+	div.bargraph{
+		display:none;
+	}
+	.row{
+		border-style:dashed hidden hidden hidden;
+	}
+	section#web-skills .column:nth-last-child(1){
+		border-bottom: dashed;
+	}
+	
+}
+
+
+@media screen and (min-width:468px){
+
+	/***** element style**/
+
+	body p{
+		font-size:1.5em;
+	}
+	header{
+		margin:0px;
+	}
+
+	header h1,header h2,header h3,nav{
+		text-align:left;
+	}
+	header h2{
+		margin-bottom:0px;
+		margin-top:0px;
+		font-weight:lighter;
+		
+	}
+	header h3{
+		font-family:Swiss_BT_Heavy;
+		margin-top:0px;
+		padding-top:10px;
+		padding-bottom:0px;
+		font-size:.8em;
+	}
+	h4{
+		font-size:1.5em;
+		text-align: center;
+	}
+	h3, h2{
+		margin-left:8%;
+		font-size:2.5em;
+	}
+
+	nav ul li{
+		font-size:1.25em;
+		padding-left:2em;
+		padding-top:1.2em;
+		padding-bottom:2em;
+		display:inline-block;
+	}
+
+	form{
+		margin-left:10%;
+		margin-bottom: 200px;
+		width:80%;
+		margin: auto;
+	}
+	footer{
+		font-size:.9em;
+
+	}
+
+	
+	
+	
+	/***class style***/
+	.toggle-nav{
+		display: none;
+	}
+	.toggle-nav:hover{
+		background-color: #0059b3;
+		border-radius:1000px;
+
+	}
+	.logo{
+		max-width:20%;
+	}
+	.column{
+		float:left;
+		width:40%;
+
+	}
+	.row{
+		box-sizing:content-box;
+	}
+
+	
+
+	/****bargraph**/
+
+	@keyframes bargraph_html{
+		0%{ width:0%; }
+		100% {width: 90%;}
+	}
+
+	@keyframes bargraph_css{
+		0%{ width:0%; }
+		100% {width: 60%;}
+	}
+	@keyframes bargraph_js{
+		0%{ width:0%; }
+		100% {width: 50%;}
+	}
+	@keyframes bargraph_jquery{
+		0%{width: 0%;}
+		100%{width:40;}
+	}
+
+	.bargraph{
+		display:block;
+		margin-top:.5em;
+		
+
+
+	}
+	.bargraph p{
+		color:white;
+		font-size:1.2em;
+		padding:.5em;
+
+	}
+	.html{
+		background-color: #00b33c;
+		width:90%;
+		animation-duration:4s;
+		animation-name: bargraph_html;
+	}
+	.css{
+		background-color:#ff1a1a;
+		width: 60%;
+		animation-duration:4s;
+		animation-name: bargraph_css;
+
+	}
+	.js{
+		background-color: #0066ff;
+		width: 50%;
+		margin-left:0px;
+		animation-duration:4s;
+		animation-name: bargraph_js;
+	
+	}
+	.jquery{
+		background-color: #ffcc00;
+		width: 40%;
+		margin-left:0px;
+		animation-duration:4s;
+		animation-name: bargraph_jquery;
+	}
+
+	/**** ID style **/
+	#wrapper{
+		background-color: #fff;
+		width:70%;
+		margin:auto ;
+		padding:5%;
+		box-sizing:border-box;
+	}
+
+	.group::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+
+}
