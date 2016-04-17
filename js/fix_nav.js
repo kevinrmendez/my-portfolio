@@ -27,20 +27,15 @@ window.onscroll = function(){myFunction()};
 }
 	function scrollView(){
     if(isScrolledIntoView(".front-end")){
-   document.getElementById("bar-html").classList.add("html");
-   document.getElementById("bar-css").classList.add("css");
-  document.getElementById("bar-javascript").classList.add("js");
-   document.getElementById("bar-jquery").classList.add("jquery");
-    console.log("class added");
-   }
-   else{
-    console.log("fail")
+    document.getElementById("bar-html").classList.add("html");
+    document.getElementById("bar-css").classList.add("css");
+    document.getElementById("bar-javascript").classList.add("js");
+    document.getElementById("bar-jquery").classList.add("jquery");
+    document.getElementById("bar-php").classList.add("php");
+    document.getElementById("bar-wp").classList.add("wp");
+    document.getElementById("bar-mysql").classList.add("mysql");
    }
 }
     showNav();
     scrollView();
-    
-
-
-
       }
